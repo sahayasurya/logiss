@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item i{
+       font-size: 13px;
+      
+}
+
+.collapse{
+    font-size: 17px;
+ 
+}
+header{
+    background-image: url(./image/hero-bg.png);
+    background-color: #0e1d34 !important;
+}
+.navbar{
+    
+    background: rgba(14, 29, 52, 0.9);
+   
+}
+.sea{
+    position: absolute;
+    margin-left: 370px;
+   
+}
+.rea{
+    font-size: 18px;
+}
+.heroSection{
+    padding: 11px 100px;
+}
+.hero img{
+    width: 90%;
+    margin-left: 100px ;
+    
+}
+.light{
+    font-size: 50px;
+    
+}
+.loremContainer i:hover{
+    color: blue !important;
+}
+.loremContainer a:hover{
+    color: blue !important;
+}
+.loremContainer h5:hover{
+    color: blue !important;
+}
+.us{
+    color:#062b6a;
+}
+.about img{
+    width: 100%;
+}
+.image i{
+    margin-left: 220px;
+    position: absolute;
+    margin-top: 160px;
+   
+}
+.card{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.car{
+    color: #062b6a !important;
+}
+.car:hover{
+    color: blue !important;
+}
+.callSection{
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("./image/cta-bg.jpg");
+    background-position: center center;
+   background-size: cover;
+    padding: 100px 20px;
+}
+.aute{
+    padding: 0 200px;
+}
+.but:hover{
+    background-color: blue !important;
+    border: 2px solid blue !important;
+}
+.voltContainer img{
+    width: 420px;
+   
+}
+.ull {
+    font-size: 18px;
+}
+.voltContainer h5{
+    color: #062b6a;
+}
+.ull i{
+    font-size: 12px;
+    color: blue;
+   
+}
+.corContainer img{
+    width: 420px;
+   
+}
+.corContainer h5{
+    color: #062b6a;
+
+}
+.um{
+    font-size: 18px;
+}
+.suntContainer img{
+    width: 420px;
+    
+}
+.suntContainer h5{
+    color: #062b6a;
+}
+.impContainer h5{
+    color: #062b6a;
+}
+.impContainer img{
+    width: 420px;
+    
+}
+.ad {
+    text-decoration: line-through;
+    color: rgba(118, 123, 127, 0.8);
+
+}
+.adi{
+    color: rgba(118, 123, 127, 0.8);
+
+}
+.adi i{
+    color: #059652;
+    font-size: 12px;
+}
+.tit{
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15) !important;
+  background: #fff !important;
+  height: 100% !important;
+  border-top: 4px solid #fff !important;
+  border-radius: 5px !important;
+  border: none !important;
+ 
+}
+.tex{
+    border: none;
+    background-color: blue !important;
+}
+.mad{
+    font-size: 17px;
+}
+.bot:hover{
+    background-color: blue !important;
+    border: none;
+}
+
+.bot:hover a{
+    color: #fff;
+}
+span{
+    color: blue !important;
+}
+sup{
+    color: blue !important;
+   
+}
+.sliderSection{
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("./image/testimonials-bg.jpg");
+    background-position: center center;
+   background-size: cover;
+    padding: 50px 20px;
+    /* height: 70vh; */
+}
+.carousel-inner{
+    height: 70vh;
+}
+.carousel-inner img{
+    width: 100px !important;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  
+}
+.para p{
+    padding: 0 140px;
+}
+.para i{
+    color: #ffc107;
+    font-size: 14px;
+}
+.accordion-button.collapsed{
+    background-color: #f7f8f9;
+  
+   
+   
+
+}
+.accordion-button {
+   
+    border: 0 !important;
+    font-size: 18px !important;
+    color:  #0a0d13 !important;
+    text-align: left !important;
+    font-weight: 600;
+   
+   
+}
+.accordion-button:not(.collapsed) {
+    color: blue !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+  }
+.accordion-item {
+    border: 0 !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+  }
+ 
+ .accordion-body{
+    background-color: #f7f8f9;
+   
+ }
+ .footerContainer{
+    background-color: #0e1d34 !important;
+ }
+ .icons i{
+    color: #b4b7b8;
+    border: 0.01px solid #a5a5a5 ;
+    padding: 10px ;
+    border-radius: 25px;
+ }
+ .icons i:hover{
+    border: 1px solid #fff ;
+    color: #fff;
+ }
+ .policy a{
+   color:#a5a5a5 ;
+   
+ }
+ .policy a:hover{
+    color: #fff;
+ }
+
+
+ 
+
+
+
+
+@media(max-width:576px){
+    .sea{
+        margin-left: 330px;
+    }
+    .heroSection{
+        padding: 30px 0;
+    }
+    .hero img{
+         padding: 0 50px;
+    }
+    .collapse{
+        background-color: #0e1d34;
+       
+    }
+    .hero img{
+        margin-left: 0;
+    }
+    .callSection{
+        padding: 20px;
+    }
+    .aute{
+        padding: 0;
+    }
+    .sid{
+        padding: 0;
+    }
+    .voltContainer img{
+        width: 100%;
+    }
+    .corContainer img{
+        width: 100%;
+    }
+    .suntContainer img{
+        width: 100%;
+    }
+    .impContainer img{
+        width: 100%;
+    }
+    .para p{
+        padding: 10px;
+    }
+    .sliderSection{
+        padding: 20px;
+    }
+    .carousel-inner{
+        height: 65vh;
+    }
+   .sea{
+     display: none !important;
+   }
+    
+}
